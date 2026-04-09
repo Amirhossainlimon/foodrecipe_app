@@ -1,0 +1,29 @@
+name: foodrecipe_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0 # আপনার SDK ভার্সন অনুযায়ী এটি সামঞ্জস্যপূর্ণ
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # API থেকে ডাটা কল করার জন্য
+  http: ^1.2.2
+
+  # YouTube ভিডিও মোবাইলে ভিউ করার জন্য
+  webview_flutter: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
